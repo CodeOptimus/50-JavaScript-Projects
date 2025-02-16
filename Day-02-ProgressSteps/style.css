@@ -73,9 +73,8 @@ body {
     transition: .4s ease;
 }
 
-.circle:active {
+.circle.active {
    border-color: var(--line-border-fill);
-   /* border-color:red */
 }
 
 .btn {
@@ -92,7 +91,6 @@ body {
 
 .btn:active {
     transform: scale(0.98);
-    
 }
 
 
@@ -102,5 +100,5 @@ body {
 
 .btn:disabled {
     background-color: var(--line-border-empty);
-    cursor: not-allowed;
+    cursor: not-allowed; 
 }
